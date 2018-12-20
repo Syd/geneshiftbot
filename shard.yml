@@ -1,0 +1,18 @@
+name: geneshiftbot
+version: 0.1.0
+
+authors:
+  - Scott Wisely <syd@scrimfind.org>
+
+targets:
+  geneshiftbot:
+    main: src/geneshiftbot.cr
+dependencies:
+  discordcr:
+    github: meew0/discordcr
+  tail:
+    github: j8r/tail
+
+crystal: 0.26.1
+
+license: MIT
